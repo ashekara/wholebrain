@@ -1,0 +1,28 @@
+id,acronym,name,parent,swanson.acronym,swanson.name,allen.id,allen.acronym,allen.name,allen.color,volume
+1000000000000000,grey,basic cell layers,NA,grey,basic cell layers,,grey,basic cell layers,,1
+1100000000000000,iso,isocortex,1000000000000000,iso,isocortex,,iso,isocortex,,1
+1200000000000000,tct,tracts,1000000000000000,tct,tracts,,tct,tracts,,1
+1300000000000000,vtcl,ventricles,1000000000000000,vtcl,ventricles,,vtcl,ventricles,,1
+1400000000000000,grv,grooves,1000000000000000,grv,grooves,,grv,grooves,,1
+1111022110100000,OB,olfactory bulb,1000000000000000,MOB,main olfactory bulb,380,MOB,main olfactory bulb,,1
+1111022110105000,GrO ,granular cell layer olfactory bulb,1111022110105000,MOBgr,"Main olfactory bulb, granule cell layer",382,MOBgr,"Main olfactory bulb, granule cell layer",,1
+1111222020100000,,anterior olfactory nucleus ,1000000000000000,,Anterior olfactory area,390,AON,anterior olfactory nucleus,,1
+1111222020101000,,,1111222020100000,AOApr1,"Anterior olfactory area, principal part, molecular layer",396,AON1,"Anterior olfactory nucleus, layer 1",,1
+1111222020102000,,,1111222020100000,AOApr2,"Anterior olfactory area, principal part, pyramidal layer",397,AON2,"Anterior olfactory nucleus, layer 2",,1
+1111222020102100,AOD,"anterior olfactory nu, dorsal",1111222020100000,,,391,AONd,"anterior olfactory nu, dorsal",,1
+1111222020102200,AOL ,"anterior olfactory nu, lateral",1111222020100000,,,393,AONl,"anterior olfactory nu, lateral part",,1
+1111222020102300,AOM ,"anterior olfactory nu, medial",1111222020100000,,,394,AONm ,"anterior olfactory nu, medial part",,1
+1111222020102500,AOVP ,"anterior olfactory nu, ventroposterior",1111222020100000,,,395,AONpv ,"Anterior olfactory nucleus, posteroventral part",,1
+1111022260200000,M2,secondary motor cortex,1000000000000000,MOs,Secondary Motor Area,993,MOs,Secondary Motor Area,,1
+1111022220200000,DLO,dorsolateral orbital cortex,1000000000000000,AId,"Agranular Insular Area, dorsal part",279,AId,"Agranular Insular Area, dorsal part",,1
+1111222150400000,LO,lateral orbital cortex,1000000000000000,ORBl,"Orbital Area, lateral part",723,ORBl,"Orbital Area, lateral part",,1
+1111222150300000,MO,medial orbital cortex,1000000000000000,ORBm,"Orbital Area, lateral part",731,ORBm,"Orbital Area, lateral part",,1
+1111222150100000,VO ,ventral orbital cortex,1000000000000000,ORBv,"Orbital Area, lateral part",738,ORBv,"Orbital Area, lateral part",,1
+1111022190000000,PrL,prelimbic cortex,1000000000000000,PL,Prelimbic area,238,PL,Prelimbic area,,1
+2113200060101000,aci,"anterior commissural, intrabulbar",1200000000000000,aco,Olfactory limb of anterior commissure,900,aco,"anterior commissure, olfactory limb",,1
+2113200030000000,lo,lateral olfactory tract,1200000000000000,lot,lateral olfactory tract,665,Lot,"lateral olfactory tract, body",,1
+4500011000000000,OV ,olfactory ventricle,1300000000000000,VLo,olfactory ventricle,89,RC,rhinocele,,1
+4500000030000000,E ,ependyma and subependymal,1300000000000000,E,Ependyma,,,,,1
+4500000040000000,,,1300000000000000,SEZ,Subependymal zone,98,SEZ,Subependymal zone,,1
+3113000070100000,rf,rhinal fissure,1400000000000000,Rhs,Rhinal sulcus,1071,rf,rhinal fissure,,1
+3113000070200000,ri,rhinal incisure,1400000000000000,ri,Rhinal incisure,1078,ri,rhinal incisure,,1
