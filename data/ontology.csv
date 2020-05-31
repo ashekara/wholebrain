@@ -1,28 +1,46 @@
 id,acronym,name,parent,swanson.acronym,swanson.name,allen.id,allen.acronym,allen.name,allen.color,volume
-1.00E+15,grey,basic cell layers,NA,grey,basic cell layers,NA,grey,basic cell layers,NA,1
-1.10E+15,iso,isocortex,1.00E+15,iso,isocortex,NA,iso,isocortex,NA,1
-1.20E+15,tct,tracts,1.00E+15,tct,tracts,NA,tct,tracts,NA,1
-1.30E+15,vtcl,ventricles,1.00E+15,vtcl,ventricles,NA,vtcl,ventricles,NA,1
-1.40E+15,grv,grooves,1.00E+15,grv,grooves,NA,grv,grooves,NA,1
-1.11102E+15,OB,olfactory bulb,1.00E+15,MOB,main olfactory bulb,380,MOB,main olfactory bulb,#CCCCCC,1
-1.11102E+15,GrO,granular cell layer olfactory bulb,1.11102E+15,MOBgr,"Main olfactory bulb, granule cell layer",382,MOBgr,"Main olfactory bulb, granule cell layer",#7ED04B,1
-1.11122E+15,,anterior olfactory nucleus ,1.00E+15,,Anterior olfactory area,390,AON,anterior olfactory nucleus,#FF5D50,1
-1.11122E+15,,,1.11122E+15,AOApr1,"Anterior olfactory area, principal part, molecular layer",396,AON1,"Anterior olfactory nucleus, layer 1",#CCCCCC,1
-1.11122E+15,,,1.11122E+15,AOApr2,"Anterior olfactory area, principal part, pyramidal layer",397,AON2,"Anterior olfactory nucleus, layer 2",#CCCCCC,1
-1.11122E+15,AOD,"anterior olfactory nu, dorsal",1.11122E+15,,,391,AONd,"anterior olfactory nu, dorsal",#7ED04B,1
-1.11122E+15,AOL,"anterior olfactory nu, lateral",1.11122E+15,,,393,AONl,"anterior olfactory nu, lateral part",#08858C,1
-1.11122E+15,AOM,"anterior olfactory nu, medial",1.11122E+15,,,394,AONm ,"anterior olfactory nu, medial part",#08858C,1
-1.11122E+15,AOVP,"anterior olfactory nu, ventroposterior",1.11122E+15,,,395,AONpv ,"Anterior olfactory nucleus, posteroventral part",#FFB3D9,1
-1.11102E+15,M2,secondary motor cortex,1.00E+15,Mos,Secondary Motor Area,993,MOs,Secondary Motor Area,#1F9D5A,1
-1.11102E+15,DLO,dorsolateral orbital cortex,1.00E+15,Aid,"Agranular Insular Area, dorsal part",279,AId,"Agranular Insular Area, dorsal part",#1AA698,1
-1.11122E+15,LO,lateral orbital cortex,1.00E+15,ORBl,"Orbital Area, lateral part",723,ORBl,"Orbital Area, lateral part",#248A5E,1
-1.11122E+15,MO,medial orbital cortex,1.00E+15,ORBm,"Orbital Area, lateral part",731,ORBm,"Orbital Area, lateral part",#248A5E,1
-1.11122E+15,VO,ventral orbital cortex,1.00E+15,ORBv,"Orbital Area, lateral part",738,ORBv,"Orbital Area, lateral part",#248A5E,1
-1.11E+15,PrL,prelimbic cortex,1.00E+15,PL,Prelimbic area,238,PL,Prelimbic area,#FFC395,1
-2.1132E+15,aci,"anterior commissural, intrabulbar",1.20E+15,aco,Olfactory limb of anterior commissure,900,aco,"anterior commissure, olfactory limb",#CCCCCC,1
+1.00E+15,root,root,NA,,,NA,,,,1
+1.10E+15,grey,basic cell layers,1.00E+15,,,NA,,,,1
+1.11E+15,OB,olfactory bulb,1.10E+15,MOB,Main olfactory bulb,507,MOB,Main olfactory bulb,#9AD2BD,1
+1.11E+15,Gl,glomerular layer olfactory bulb,1.11E+15,MOBgl,"Main olfactory bulb, glomerular layer",212,MOBgl,"Main olfactory bulb, glomerular layer",#82C7AE,1
+1.11E+15,EPl,external plexiform layer olfactory bulb,1.11E+15,MOBopl,"Main olfactory bulb, outer plexiform layer",244,MOBopl,"Main olfactory bulb, outer plexiform layer",#9AD2BD,1
+1.11E+15,Mi,mitral cell layer olfactory bulb,1.11E+15,MOBmi,"Main olfactory bulb, mitral layer",236,MOBmi,"Main olfactory bulb, mitral layer",#82C7AE,1
+1.11E+15,IPl,internal plexiform layer olfactory bulb,1.11E+15,MOBipl,"Main olfactory bulb, inner plexiform layer",228,MOBipl,"Main olfactory bulb, inner plexiform layer",#9AD2BD,1
+1.11E+15,GrO,granular cell layer olfactory bulb,1.11E+15,MOBgr,"Main olfactory bulb, granule cell layer",220,MOBgr,"Main olfactory bulb, granule cell layer",#82C7AE,1
+1.11E+15,,accessory olfactory bulb,1.10E+15,AOB,Accessory olfactory bulb,151,AOB,Accessory olfactory bulb,#9DF0D2,1
+1.11E+15,GlA,glomerular layer accessory olfactory bulb,1.11E+15,AOBgl,"Accessory olfactory bulb, glomerular layer",188,AOBgl,"Accessory olfactory bulb, glomerular layer",#9DF0D2,1
+1.11E+15,GrA,granule cell layer accessory olfactory bulb,1.11E+15,AOBgr,"Accessory olfactory bulb, granular layer",196,AOBgr,"Accessory olfactory bulb, granular layer",#95E4C8,1
+1.11E+15,MiA,mitral cell layer of the accessory olfactory bulb,1.11E+15,AOBmi,"Accessory olfactory bulb, mitral layer",204,AOBmi,"Accessory olfactory bulb, mitral layer",#9DF0D2,1
+1.11E+15,,anterior olfactory nucleus,1.10E+15,,Anterior olfactory area,159,AON,Anterior olfactory nucleus,#54BF94,1
+1.11E+15,,,1.11E+15,AOApr1,"Anterior olfactory area, principal part, molecular layer",160,AON1,"Anterior olfactory nucleus, layer 1",#54BF94,1
+1.11E+15,,,1.11E+15,AOApr2,"Anterior olfactory area, principal part, pyramidal layer",168,AON2,"Anterior olfactory nucleus, layer 2",#54BF94,1
+1.11E+15,AOD,"anterior olfactory nu, dorsal",1.11E+15,,,167,AONd,"Anterior olfactory nucleus, dorsal part",#54BF94,1
+1.11E+15,AOL,"anterior olfactory nu, lateral",1.11E+15,,,183,AONl,"Anterior olfactory nucleus, lateral part",#54BF94,1
+1.11E+15,AOM,"anterior olfactory nu, medial",1.11E+15,,,191,AONm,"Anterior olfactory nucleus, medial part",#54BF94,1
+1.11E+15,AOV,"anterior olfactory nu, ventral",1.11E+15,,,NA,,,,1
+1.11E+15,AOVP,"anterior olfactory nu, ventroposterior",1.11E+15,,,199,AONpv,"Anterior olfactory nucleus, posteroventral part",#54BF94,1
+1.11E+15,AOE,"anterior olfactory nu, external",1.11E+15,AOAe,"Anterior olfactory area, external part",175,AONe,"Anterior olfactory nucleus, external part",#54BF94,1
+1.11E+15,,,1.11E+15,AOAe1,"Anterior olfactory area, external part, molecular layer",NA,,,,1
+1.11E+15,,,1.11E+15,AOAe2,"Anterior olfactory area, external part, pyramidal layer",NA,,,,1
+1.10E+15,iso,isocortex,1.10E+15,,,NA,,,,1
+1.11E+15,FrA,frontal association cortex,1.10E+15,FRO,Frontal Region,184,FRP,"Frontal pole, cerebral cortex",#268F45,1
+1.11E+15,M2,secondary motor cortex,1.00E+15,Mos,Secondary Motor Area,993,MOs,Secondary Motor Area,#1F9D5A,1
+1.11E+15,DLO,dorsolateral orbital cortex,1.00E+15,Aid,"Agranular Insular Area, dorsal part",104,AId,"Agranular Insular Area, dorsal part",#219866,1
+1.11E+15,LO,lateral orbital cortex,1.00E+15,ORBl,"Orbital Area, lateral part",723,ORBl,"Orbital Area, lateral part",#248A5E,1
+1.11E+15,MO,medial orbital cortex,1.00E+15,ORBm,"Orbital area, medial part",731,ORBm,"Orbital area, medial part",#248A5E,1
+1.11E+15,VO,ventral orbital cortex,1.00E+15,ORBv,"Orbital area, ventral part",738,ORBv,"Orbital area, ventral part",#248A5E,1
+1.11E+15,PrL,prelimbic cortex,1.00E+15,PL,Prelimbic area,972,PL,Prelimbic area,#2FA850,1
+1.20E+15,tct,tracts,1.00E+15,,,NA,,,,1
+2.11E+15,aci,"anterior commissural, intrabulbar",1.20E+15,aco,Olfactory limb of anterior commissure,900,aco,"anterior commissure, olfactory limb",#CCCCCC,1
 2.11E+15,lo,lateral olfactory tract,1.20E+15,lot,lateral olfactory tract,665,Lot,"lateral olfactory tract, body",#CCCCCC,1
+2.11E+15,,,1.20E+15,lotp,Principal lateral olfactory tract,NA,,,,1
+1.30E+15,vtcl,ventricles,1.00E+15,,,NA,,,,1
 4.50E+15,OV,olfactory ventricle,1.30E+15,Vlo,olfactory ventricle,89,RC,rhinocele,#AAAAAA,1
-4.50E+15,E,ependyma and subependymal,1.30E+15,E,Ependyma,NA,,,NA,1
+4.50E+15,E,ependyma and subependymal,1.30E+15,E,Ependyma,NA,,,,1
 4.50E+15,,,1.30E+15,SEZ,Subependymal zone,98,SEZ,Subependymal zone,#AAAAAA,1
-3.113E+15,rf,rhinal fissure,1.40E+15,Rhs,Rhinal sulcus,1071,rf,rhinal fissure,#AAAAAA,1
-3.113E+15,ri,rhinal incisure,1.40E+15,ri,Rhinal incisure,1078,ri,rhinal incisure,#AAAAAA,1
+1.40E+15,grv,grooves,1.00E+15,,,NA,,,,1
+3.11E+15,rf,rhinal fissure,1.40E+15,Rhs,Rhinal sulcus,1071,rf,rhinal fissure,#AAAAAA,1
+3.11E+15,ri,rhinal incisure,1.40E+15,ri,Rhinal incisure,1078,ri,rhinal incisure,#AAAAAA,1
+1.40E+15,art,artery,1.00E+15,,,NA,,,,1
+1.41E+15,lofr,lateral orbitofrontal artery,1.40E+15,,,NA,,,,1
+1.42E+15,mofr,medial orbitofrontal artery,1.40E+15,,,NA,,,,1
